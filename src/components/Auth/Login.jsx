@@ -6,7 +6,7 @@ function Login({ handleLogin }) {
   const [password, setPassword] = useState("");
   return (
     <div className="h-screen w-full flex justify-center items-center loginbackground">
-      <div className="w-full max-w-md p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
+      <div className="w-full max-w-md p-8 space-y-3 rounded-xl bg-gray-50 dark:text-gray-800">
         <h1 className="text-2xl font-bold text-center">Login</h1>
         <form noValidate="" action="" className="space-y-6"  onSubmit={(e) => {
             e.preventDefault();
