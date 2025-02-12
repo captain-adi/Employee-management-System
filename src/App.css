@@ -1,0 +1,132 @@
+/* loign page .background  */
+.loginbackground{
+  background-image: url(/public/laptop.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* admin dashboard .background  */
+.background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+ background-image: url(/public/background.jpg);
+ 
+}
+
+/* // button  */
+.btn-grad {
+  background-color: rgb(124 58 237 / var(--tw-bg-opacity, 1));
+  
+}
+.btn-grad {
+  margin: 30px 0px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* //logOut button */
+
+/* .btn-gradLogOut {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+} */
+.btn-gradLogOut {
+  background-color: rgb(124 58 237 / var(--tw-bg-opacity, 1));
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-gradLogOut:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* //header  */
+.header {
+  background-image: radial-gradient(
+    circle 950px at 2.5% 8%,
+    rgba(44, 103, 176, 1) 0%,
+    rgba(35, 56, 136, 1) 90%
+  );
+}
+
+/* new task */
+.blueButton {
+    background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+}
+.blueButton {
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  border-radius: 10px;
+  display: block;
+}
+
+.blueButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.redButton {
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+.redButton {
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.redButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
